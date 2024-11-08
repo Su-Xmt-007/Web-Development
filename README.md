@@ -10,3 +10,13 @@
 <li> Create two divs with id first and second and define color for both using group selector.</li>
 </ol>
 </div>
+
+<div>
+<h4>CSS Color System & Background: Practice Set level 2 </h4>
+<ol>
+<li>Create a div bar with txt and background color with opacity.</li> 
+<li>Change the color of the main content.</li>
+<li>Add background image to one div.</li> 
+<li> Use background shorthand property.</li> 
+</ol>
+</div>
