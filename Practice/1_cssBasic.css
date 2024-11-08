@@ -1,0 +1,37 @@
+#heading{
+    background-color: coral;
+    color: rgb(0, 99, 133);
+    text-align: center;
+    font-weight: 500;
+    /* height: 50px; */
+    width: 100%;
+    font-size: 40px;
+}
+
+#idSelector{
+    background-color: cadetblue;
+    font-size: 30px;
+    font-weight: 800;
+    color: blue;
+}
+
+.classSelector{
+    background-color: rgb(50, 215, 221);
+    font-size: 30px;
+    font-weight: 800;
+    color: rgba(10, 15, 11, 0.555);
+}
+
+p{
+    background-color: rgb(241, 188, 13);
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(223, 0, 223);
+}
+
+#first,#second{
+    background-color: rgba(14, 179, 255, 0.658);
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(219, 58, 0, 0.959);
+}

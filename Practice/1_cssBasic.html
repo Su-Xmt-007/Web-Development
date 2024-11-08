@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basic :Practice Set level 1 </title>
+    <link rel="stylesheet" href="1_cssBasic.css">
+    <style>
+    #heading{
+    background-color: coral;
+    color: rgb(0, 99, 133);
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    font-size: 55px;
+}
+   /* .comment{
+        background-color: aquamarine;
+        margin-top: 10px;
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(194, 54, 3);
+        text-align: justify;
+    }*/
+    </style>
+</head>
+<body>
+    <!-- Create a heading and Set the text color red. -->
+    <h1 style="color: red; font-size: 25px;">
+        This is the practice set 1 of css basic.
+    </h1>
+
+    <!-- Create a div with id #heading, include CSS using all 3 ways inline, internal and external css. And check priority. -->
+    <div id="heading" style="color: rgb(4, 143, 143); font-size: 30px;">
+        This is div part of this page.
+        <super>Result Priority wise: Inline CSS, Internal CSS and External CSS</super>
+    </div>
+
+    <!-- Add comment to your CSS class -->
+     <div class="comment">
+        This div has comment class but using comment on comment class we will illustrate this problem.
+     </div>
+
+
+     <!--  Create a div, paragraph and heading and use id,element and class selector for them. -->
+
+     <div id="idSelector">This is the div tag with id selector name: "idSelector"</div>
+     <p>This is a p tag with element selector.</p>    
+     <h3 class="classSelector">This is the h3 tag with class selector name: "classSelector"</h3>
+
+
+     <!--  Create two divs with id first and second and define color for both using group selector. -->
+       <div id="first">This is div1 with id first.</div>
+       <div id="second">This is div2 with id second.</div>
+
+
+</body>
+</html>
